@@ -1,0 +1,218 @@
+
+
+#dice_space{
+
+}
+#dice_space div{
+  top: 10px;
+  right: 350px;
+  left: 0px;
+  bottom: 900px;
+  border: 2px solid black;
+  border-radius: 5px;
+  position: relative;
+
+}
+
+.height_width{
+  height: 80px;
+  width: 80px;
+
+}
+
+.dot{
+  height: 16px;
+  width: 16px;
+  background-color: black;
+  display: block;
+  border-radius: 100%;
+}
+
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+}
+
+.top_left{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translateX(-50%)
+  translateY(-50%);
+}
+
+.bottom_right{
+  position: absolute;
+  top:75%;
+  left:75%;
+  transform: translateX(-50%)
+  translateY(-50%);
+
+}
+
+.bottom_left{
+  position: absolute;
+  top:75%;
+  left:25%;
+  transform: translateX(-50%)
+  translateY(-50%);
+
+}
+.middle_right{
+  position: absolute;
+  top:50%;
+  left:75%;
+  transform: translateX(-50%)
+  translateY(-50%);
+
+}
+.middle_left{
+  position: absolute;
+  top:50%;
+  left:25%;
+  transform: translateX(-50%)
+  translateY(-50%);
+
+}
+.top_right{
+  position: absolute;
+  top:25%;
+  left:75%;
+  transform: translateX(-50%)
+  translateY(-50%);
+}
+.bounce {
+    animation-duration: 0s;
+    animation-iteration-count: infinite;
+    animation-direction:reverse;
+}
+
+@keyframes bounce {
+  0%, 100% {transform: translateY(1)};
+    50% {transform:translateY(-100px);}
+    100% {transform:translateY(100px);}
+}
+.bounce {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: bounce;
+}
+
+@keyframes bounce2 {
+  0%, 100% {transform: translateY(1)};
+    100% {transform:translateY(-100px);}
+    100% {transform:translateY(100px);}
+  }
+
+  .bounce3 {
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-name: bounce;
+  }
+
+  @keyframes bounce3 {
+    0%, 100% {transform: translateY(2)};
+      100% {transform:translateY(-100px);}
+      100% {transform:translateY(100px);}
+    }
+    .bounce4 {
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-name: bounce;
+    }
+
+    @keyframes bounce4 {
+      0%, 100% {transform: translateY(1)};
+        100% {transform:translateY(-100px);}
+        100% {transform:translateY(100px);}
+      }
+      .bounce5 {
+          animation-duration: 2s;
+          animation-iteration-count: infinite;
+          animation-name: bounce;
+      }
+
+      @keyframes bounce5 {
+        0%, 100% {transform: translateY(1)};
+          100% {transform:translateY(-100px);}
+          100% {transform:translateY(100px);}
+        }
+        .bounce6 {
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-name: bounce;
+        }
+
+        @keyframes bounce6 {
+          0%, 100% {transform: translateY(1)};
+            100% {transform:translateY(-100px);}
+            100% {transform:translateY(100px);}
+          }
+
+          .skew {
+  display: inline-block;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  transform: skew(-20deg);
+  font-size: 1px;
+  padding: 1px;
+  color: white;
+  animation: shake .999s infinite;
+  animation-direction:alternate;
+}
+
+@keyframes shake {
+  0% {
+    transform: skewY(-20deg);
+  }
+  100% {
+    transform: skewY(20deg);
+  }
+}
+
+body, html {
+  height: 100%;
+}
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skew2 {
+display: inline-block;
+background-color: grey;
+height: 100px;
+width: 100px;
+transform: skew(20deg);
+font-size: 1px;
+padding: 1px;
+color: white;
+animation: shake .3333s infinite;
+animation-direction:alternate;
+}
+
+@keyframes shake {
+0% {
+transform: skewY(20deg);
+}
+100% {
+transform: skewY(-20deg);
+}
+}
+
+body, html {
+height: 100%;
+}
+
+
+body {
+display: flex;
+align-items: center;
+justify-content: center;
+}
